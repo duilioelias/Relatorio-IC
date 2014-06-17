@@ -1,0 +1,92 @@
+%Citar livros Ok
+@book{Hey2011,
+  title={O quarto Paradigma: descobertas científicas na era da eScience},
+  author={Tony, H. and Stewart, T. and Kristin, T.},
+  isbn={9788579750281},
+  publisher={Oficina de Textos},
+  ADDRESS = "São Paulo",
+  year={2011},
+  pages= "17-29"
+ }
+%citar teses e diseertações
+%Tese kelly
+%Tese Eduardo -qualificacão OK
+@MASTERSTHESIS{Ogasawara2011,
+AUTHOR ="Ogasawara, E. S.",
+TITLE ="Uma Abordagem Algébrica para Workflows Científicos com Dados em Larga Escala",
+SCHOOL ="Universidade Federal do Rio de Janeiro, UFRJ-Rio de Janeiro",
+YEAR ="2011",
+type ="Doutorado"
+}
+@MASTERSTHESIS{Junior2012,
+AUTHOR ="Júnior, L.M.R.G.",
+TITLE ="Gerência de proveniência em Workflow Científicos para e distribuídos",
+SCHOOL ="Universidade Federal do Rio de Janeiro, UFRJ-Rio de Janeiro",
+YEAR ="2012",
+type ="Doutorado"
+}
+@MASTERSTHESIS{Teixeira2013,
+AUTHOR ="Teixeira, E.C.,",
+TITLE ="Modelagem e Escalonamento de WorkFlows Científicos para Execução em Plataforma de Computação em Nuvem",
+SCHOOL ="Universidade de São Paulo, USP-São Paulo",
+YEAR ="2013",
+type ="Doutorado-Qualificação"
+}
+@MASTERSTHESIS{Braghetto2011,
+AUTHOR ="Braghetto, K.R.",
+TITLE ="Técnicas de modelagem para a análise de desempenho de processos de negócio",
+SCHOOL ="Universidade de São Paulo, USP-São Paulo",
+YEAR ="2011",
+type ="Doutorado"
+}
+
+%monografias
+%monografia do Paulo
+
+%Citar Sites
+@misc{ google:cloudsim,
+   author={Google},
+   title = "Calheiros: CloudSim: a toolkit for modeling and simulation of ... - Google Scholar",
+   year = "2013",
+   howpublished = "\url{http://scholar.google.com.br/scholar?cites=272054103506592999&as_sdt=2005&sciodt=0,5&hl=pt-BR}",
+   note = "[Online; acessado em 01 de fevereiro de 2014]"
+}
+
+@misc{pegasus:workflowgenerator,
+author = {{Pegasus Project}},
+title = {{WorkflowGenerator}},
+howpublished = "\url{https://confluence.pegasus.isi.edu/display/pegasus/WorkflowGenerator}",
+note = "[Online; acessado em 1 de setembro de 2013]",
+year = {2012}
+}
+@misc{cloudsim:site,
+author = {{CLOUDS: The Cloud Computing and Distributed Systems Laboratory}},
+title = {{CloudSim: A Framework for Modeling and Simulation of Cloud Computing Infrastructures and Services}},
+howpublished = "\url{http://www.cloudbus.org/cloudsim/}",
+note = "[Online; acessado em 01 de fevereiro de 2014]",
+year = {2010}
+}
+
+@misc{PIPE,
+   author={Department of Computing at Imperial College London},
+   title = "Ferramenta de análise e representação de Redes de Petri ",
+   year = "2002",
+   howpublished = "\url{http://pipe2.sourceforge.net/}",
+   note = "[Online; acessado em 01 de fevereiro de 2014]"
+}
+
+%citar sites
+@misc{WfMC, 
+title = {Workflow Management Coalition}, 
+howpublished = {\url{http://www.wfmc.org/}}, 
+note = {Último acesso: 2014-02-06}, year = {2014} 
+}
+@INPROCEEDINGS{chen:workflowsim,
+author={Weiwei Chen and Deelman, E.},
+booktitle={E-Science (e-Science), 2012 IEEE 8th International Conference on},
+title={WorkflowSim: A toolkit for simulating scientific workflows in distributed environments},
+year={2012},
+pages={1-8},
+keywords={cloud computing;distributed processing;optimisation;CloudSim simulator;WorkflowSim;distributed environments;simulating scientific workflow toolkit;workflow management;workflow optimization techniques;Computational modeling;Delay;Engines;Heuristic algorithms;Processor scheduling;Runtime;Training;clustering;failure;overhead;simulation;workflow},
+doi={10.1109/eScience.2012.6404430},
+}

@@ -1,0 +1,18 @@
+\begin{resumo}
+
+%----
+% Estrutura básica de um resumo
+	%Contextualização breve
+	%Objetivos
+	%Métodos
+	%Resultados
+	%Conclusões
+%----
+
+	Nas últimas décadas os workflows científicos receberam grande atenção da comunidade acadêmica, devido à sua grande capacidade de manipulação, análise e simulação de experimentos que trabalham com grandes quantidades de dados. No entanto, as ferramentas existentes para tal fim são ainda escassas e muitos cientistas afirmam que isso seja o grande gargalo da produção científica. Neste trabalho, busca-se contribuir com este processo, a partir da identificação e caracterização de linguagens de modelagem de workflows científicos, criando modelos estocásticos capazes de predizer o impacto causado pelo fluxo de dados no desempenho e na execução de workflows em ambientes computacionais distribuídos. Com isso, pretende-se desenvolver um algoritmo que gera modelos estocásticos a partir do fluxo de dados de workflows científicos, extraindo índices capazes de predizer o impacto do uso de diferentes abordagens de controle de fluxo de dados no desempenho dos workflows.
+
+ \vspace{\onelineskip}
+ 
+ \noindent
+ \textbf{Palavras-chaves}: Workflows científicos. Redes de Petri. Análise de Desempenho. Gerenciadores de Workflows.
+\end{resumo}

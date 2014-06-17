@@ -1,0 +1,157 @@
+\documentclass[
+	article,			% indica que é um artigo acadêmico
+	12pt,				% tamanho da fonte
+	oneside,			% para impressão apenas no verso. Oposto a twoside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	brazil,			% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{cmap}					% Mapear caracteres especiais no PDF
+\usepackage{lmodern}				% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}			% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}			% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{color}				% Controle das cores
+\usepackage[pdftex]{graphicx}			% Inclusão de gráficos
+\usepackage{amsmath,amssymb,exscale}	%inserir eq e simbolos matemáticos
+\usepackage{listings,color}				%inserir código fonte no texto
+\usepackage{bbm, dsfont}
+\usepackage{makeidx}
+\usepackage{lscape}							% inserir folha no formato retrato
+\makeindex
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{blue}{RGB}{41,5,195}
+
+\lstset{
+    language=XML,
+    tabsize=3,
+    frame=lines,
+    caption=Test,
+    label=code:sample,
+    frame=shadowbox,
+    rulesepcolor=\color{gray},
+    xleftmargin=20pt,
+    framexleftmargin=15pt,
+    keywordstyle=\color{blue}\bf,
+    commentstyle=\color{OliveGreen},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    breaklines=true,
+    showstringspaces=false,
+    basicstyle=\footnotesize,
+    emph={food,name,price},emphstyle={\color{magenta}}
+    }
+
+
+
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={Modelo de artigo científico com abnTeX2},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{atigo científico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+
+
+\renewcommand{\bf}{\textbf}
+\renewcommand{\sc}{\textsc}
+\renewcommand{\lstlistingname}{Código-}
+
+% ---
+% Altera as margens padrões
+% ---
+\setlrmarginsandblock{4cm}{4cm}{*}
+\setulmarginsandblock{4cm}{4cm}{*}
+\checkandfixthelayout
+% ---
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% ---------------------------------------------------------------------------- %
+% CAPA
+% ---------------------------------------------------------------------------- %
+\input{capa}
+\thispagestyle{empty}
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+\newpage
+% ---------------------------------------------------------------------------- %
+%Resumo
+% ---------------------------------------------------------------------------- %
+\input{resumo}
+\newpage
+\tableofcontents %imprimir sumario
+\newpage
+\textual
+
+% ---------------------------------------------------------------------------- %
+% Introdução
+% ---------------------------------------------------------------------------- %
+\input{Introducao}
+% ---------------------------------------------------------------------------- %
+%Objetivo
+% ---------------------------------------------------------------------------- %
+\input{Objetivo}	
+% ---------------------------------------------------------------------------- %
+% Seção de explicações
+% ---------------------------------------------------------------------------- %
+\input{conceitosbasicos}
+	\input{simuladores}
+% ---------------------------------------------------------------------------- %
+%Metologia
+% ---------------------------------------------------------------------------- %
+\input{metodologia}
+% ---------------------------------------------------------------------------- %
+%Resultados Parciais
+% ---------------------------------------------------------------------------- %
+\input{resultadosparciais}
+% ---------------------------------------------------------------------------- %
+%Conclusões  Parciais
+% ---------------------------------------------------------------------------- %
+\input{conclusoeparciais}
+\newpage
+% ---------------------------------------------------------------------------- %
+% Bibliografia
+% ---------------------------------------------------------------------------- %
+\bibliographystyle{apalike}% citação bibliográfica alpha
+\bibliography{bibliografia}  % associado ao arquivo: 'bibliografia.bib'
+\include{anexos}
+\end{document}

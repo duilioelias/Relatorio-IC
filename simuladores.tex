@@ -1,0 +1,21 @@
+%mostra como podemos aplicar redes de Petri na modelagem analitica de workflows cientificos
+%relacionar modelage analítica de redes de Petri com workflows científicos	
+%colocar porque escolhermos esse formalismo em vez de outros N/D
+%colocar aqui como será modelado as redes de Petri para criar uma rede similar ao workflow analisado
+
+
+	\subsection{Simuladores de workflows científicos}	
+			
+	Depois de criados os modelos em RdPEs para workflows científicos há algumas maneiras de validar o modelo, a primeira possibilidade é execução do workflows. Essa alternativa possui como problema o custo monetário envolvido na instanciação das máquinas, o que a torna inviável no primeiro momento. Uma outra alternativa mais viável é a  utilização de um ambiente de simulação computacional. Essa alternativa abre a possibilidade de criar-se diferentes ambientes computacionais e facilidade de reprodução da simulação, o que torna viável a busca por gargalos no workflows utilizados. Além da possibilidade de ter um avaliar modelos analíticos em um ambiente controlado que é um dos objetivos desse trabalho. 
+	
+	Os simuladores possivelmente serão utilizados nesse trabalho estão brevemente descritos abaixo:
+			\subsubsection{WorkflowSim}
+	O WorkflowSim\cite{chen:workflowsim} é uma ferramenta de simulação de workflows científicos baseada no CloudSim\cite{google:cloudsim}, que também é uma ferramenta de simulação. No entanto, o CloudSim não possui certa características presentes no WorkflowSim, por exemplo, a simulação de ambientes heterogêneos e possibilidade de incluir falhas no sistema. As atividades no WorkflowSim  são descritas na linguagem DAX(XML gerado para execução de atividades no Pegasus). O WorkflowSim, possibilita também, modelar todo um ambiente computacional para execução dos workflows(Quantidade de \textit{Virtual Machine(VM)} e \textit{DataCenters}). Obseverve no Anexo 3 como é descrito um ambiente computacional no WorkflowSim. 
+							
+				
+	%Para extrair índices de desempenho precisamos primeiro ter a solucao numerica do modelo, existem varias 				ferramentas para a modelagem de redes de Petri estocasticas e escolhemos utilizar a PIPE, ferramenta open source 		...
+	% Para validar o índices de desempenho que serão extraidos na proxima fase do projeto, foram estudados alguns também 	simuladores, falar sobre o workflow_sim e cloud-sim_DVSF. No simulador é possível modelar o ambiente computacional 	e para avaliar a posteriore teremos que modelar esse ambiente computacional utilizando redes de Petri.
+	%Falar sobre o DAX;caracterizar um workflow descrito por DAX e da possibilidade de converter um workflow em DAX em 	modelo analítico. Pegar um exemplo simples e colocar no relatório.
+%Como foram realizadas as tarefas 
+
+%Neste trabalho, a análise de desempenho de workflows científicos baseia-se em duas abordagens diferentes: primeiro, uma modelagem analítica, apoiando-se no formalismo estocástico de redes de Petri, segundo, a simulação dos workflows científicos no [CloudSim-DVSF]. Essas duas fases permitirá extrair e comparará-los.

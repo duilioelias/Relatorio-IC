@@ -1,0 +1,5 @@
+<job id="ID000002" namespace="vahi" name="findrange" version="1.0" level="2" dv-namespace="vahi" dv-name="left"	dv-version="1.0">
+    <argument>-a left -T 6 -i <filename file="f.b1"/> -o <filename file="f.c1"/> -p 0.5</argument>
+    <uses file="f.b1" link="input" dontRegister="false" dontTransfer="false" temporaryHint="true"/>
+    <uses file="f.c1" link="output" dontRegister="true" dontTransfer="false" temporaryHint="true"/>
+</job>

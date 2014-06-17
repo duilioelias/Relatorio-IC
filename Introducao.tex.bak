@@ -1,0 +1,12 @@
+%definicao e caracteristicas básicas de workflows cientificos OK
+%colocar uma idea de redes de petri estocásticas
+
+\section{Introdução}
+
+	Um workflow científico pode ser compreendido como um conjunto de tarefas computacionais que constituem um experimento científico\cite{Junior2012}. Esse conjunto de tarefas pode ser dividido em modelagem, execução e análise. Um cientista pode definir seu workflow com o auxílio de uma ferramenta de software, com uma interface gráfica simples e intuitiva. Depois de criado um modelo, o gerenciador auxilia o pesquisador a executar o workflow de forma eficiente, automaticamente, com pouca ou nenhuma intervenção manual.
+	
+	Os workflows científicos são conhecidos pelo seu poder de manipulação e execução de projetos que trabalham com grandes quantidades de dados. Neste trabalho, estamos interessados em melhorar o desempenho da execução de workflows em ambientes computacionais distribuídos, o que muitas vezes não é uma tarefa fácil. Para isso, o sistema gerenciador precisa considerar a relação de dependência que existe entre as tarefas do workflow, ou seja, precisa definir quais são os dados de entrada de uma determinada tarefa, a fonte desses dados e destino dos dados processados. Há também um custo envolvido nas transferências de dados, em termos de tempo, que precisa ser considerado e que depende do ambiente computacional.
+
+	Todas essas observações se relacionam ao modelo de workflow de duas formas diferentes: primeiro, pela relação de dependência existente entre as tarefas, ou seja, como os dados irão percorrer o workflow e, segundo, quais as características computacionais do ambiente em que o workflow será executado.
+	
+	O conjunto de conexões que interligam as atividades pode ser caracterizado como fluxo de dados, esse fluxo de dados define as dependências entre as atividades e os dados manipulados\cite{Teixeira2013}.

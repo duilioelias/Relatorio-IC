@@ -1,0 +1,38 @@
+\section{Resultados Parciais}
+
+	 A primeira parte desse projeto  mostrou existe a possibilidade de mo comparação entre os modelos analíticos e a simulação.O que servirá a posteriore para extrair índices de desempenho e criar um algoritmo capaz de encontrar a melhor forma de modelagem do workflow científico.
+
+\subsection{Tarefas Realizadas}
+
+	\begin{itemize}
+			\item Estudo dos conceitos básicos relacionados a workflows científicos e seus respectivos modelos de representação de fluxo de dados;
+			\item Estudo dos conceitos básicos relacionados à modelagem estocástica de workflows científicos;
+
+			\item Identificação e caracterização do conjunto de construtores de fluxo de dados: Kepler, Taverna e Pegasus.
+			\item Modelagem do Montage utilizando o PIPE;
+			\item Estudo básido dos possíveis simuladores de workflows científicos para validar o modelo analítico criado.
+	\end{itemize}
+
+\subsection{Tarefas em Andamento}
+		\begin{itemize}
+		
+			\item \textbf{2 meses} - Estudo da viabilidade do uso de diferentes tipos de formalismos estocásticos(em particular Redes de Petri e as Álgebra de processos estocásticos) para a modelagem de fluxos de dados;
+			
+			\item \textbf{15 dias} - Interpretação do funcionamento do simuladores de workflows: CloudSim e Cloud-DVFS, quanto possibilidade de representação um ambiente computacional que possa ser modelado analiticamente;
+		\end{itemize}
+
+\subsection{Tarefas a serem realizadas}
+		\begin{itemize}
+			\item \textbf{15 dias}-Estudo e definição de índices extraídos a partir dos modelos representados na etapa anterior, que possam refletir um impacto no desempenho do fluxo de dados;
+			\item \textbf{15 dias}- Montar uma simulação de workflow científico em um dos simuladores estudado na etapa anteriores;
+			\item \textbf{1,5 meses}-Desenvolvimento de um algoritmo que faça a conversão automática de fluxo de dados de um fluxo de dados de workflow em um modelo estocástico correspondente(selecionado dentre os tipos de modelos estudados).
+		\end{itemize}
+
+	
+	
+%Quais os critérios que utilizaremos para criar correcoe?
+	
+	%Falar sobre o sucesso da atividades que nos compromentemos e sobre o que pretendemos fazer depois(Fazer a 				programa conversão automatica e modelar um ambiente computacional com redes de Petri, definir um método de 			extracao de índices de desempenho, a partir da solucao matemática de um modelo em redes de Petri).
+
+\section{Conclusões Parciais}
+
