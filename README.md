@@ -1,4 +1,4 @@
-Relatório Parcial de iniciação científica
+Relatório Final de iniciação científica
 =========================================================
 
 #Predição do impacto do fluxo de dados no desempenho de workflows científicos
