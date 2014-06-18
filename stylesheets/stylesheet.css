@@ -320,8 +320,8 @@ Full-Width Styles
   bottom: -40px;
   right: 0;
   height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
+
 
 .zip_download_link {
   display: block;
@@ -331,6 +331,10 @@ Full-Width Styles
   text-indent: -5000px;
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
+}
+
+a.relatorio_pdf{
+  text-indent: 50px;
 }
 
 .tar_download_link {
@@ -351,6 +355,7 @@ Full-Width Styles
 .tar_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
+
 
 #main_content_wrap {
   background: #f2f2f2;
