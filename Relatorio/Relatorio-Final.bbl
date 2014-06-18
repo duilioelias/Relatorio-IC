@@ -1,0 +1,63 @@
+\begin{thebibliography}{}
+
+\bibitem[WfM, 2014]{WfMC}
+ (2014).
+\newblock Workflow management coalition.
+\newblock \url{http://www.wfmc.org/}.
+\newblock Último acesso: 2014-02-06.
+
+\bibitem[Braghetto, 2011]{Braghetto2011}
+Braghetto, K. (2011).
+\newblock Técnicas de modelagem para a análise de desempenho de processos de
+  negócio.
+\newblock Doutorado, Universidade de São Paulo, USP-São Paulo.
+
+\bibitem[Chen and Deelman, 2012]{chen:workflowsim}
+Chen, W. and Deelman, E. (2012).
+\newblock Workflowsim: A toolkit for simulating scientific workflows in
+  distributed environments.
+\newblock In {\em E-Science (e-Science), 2012 IEEE 8th International Conference
+  on}, pages 1--8.
+
+\bibitem[Google, 2013]{google:cloudsim}
+Google (2013).
+\newblock Calheiros: Cloudsim: a toolkit for modeling and simulation of ... -
+  google scholar.
+\newblock
+  \url{http://scholar.google.com.br/scholar?cites=272054103506592999&as_sdt=2005&sciodt=0,5&hl=pt-BR}.
+\newblock [Online; acessado em 01 de fevereiro de 2014].
+
+\bibitem[Júnior, 2012]{Junior2012}
+Júnior, L. (2012).
+\newblock Gerência de proveniência em workflow científicos para e
+  distribuídos.
+\newblock Doutorado, Universidade Federal do Rio de Janeiro, UFRJ-Rio de
+  Janeiro.
+
+\bibitem[of~Computing~at Imperial College~London, 2002]{PIPE}
+of~Computing~at Imperial College~London, D. (2002).
+\newblock Ferramenta de análise e representação de redes de petri.
+\newblock \url{http://pipe2.sourceforge.net/}.
+\newblock [Online; acessado em 01 de fevereiro de 2014].
+
+\bibitem[Ogasawara, 2011]{Ogasawara2011}
+Ogasawara, E.~S. (2011).
+\newblock Uma abordagem algébrica para workflows científicos com dados em
+  larga escala.
+\newblock Doutorado, Universidade Federal do Rio de Janeiro, UFRJ-Rio de
+  Janeiro.
+
+\bibitem[{Pegasus Project}, 2012]{pegasus:workflowgenerator}
+{Pegasus Project} (2012).
+\newblock {WorkflowGenerator}.
+\newblock
+  \url{https://confluence.pegasus.isi.edu/display/pegasus/WorkflowGenerator}.
+\newblock [Online; acessado em 1 de setembro de 2013].
+
+\bibitem[Teixeira, 2013]{Teixeira2013}
+Teixeira, E. (2013).
+\newblock Modelagem e escalonamento de workflows científicos para execução
+  em plataforma de computação em nuvem.
+\newblock Doutorado-qualificação, Universidade de São Paulo, USP-São Paulo.
+
+\end{thebibliography}
