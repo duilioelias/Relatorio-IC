@@ -1,0 +1,57 @@
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Starting WorkflowSim 1.0.0
+planner_0 is starting...
+planner_0_Merger_ is starting...
+planner_0_Merger__Engine_0 is starting...
+planner_0_Merger__Engine_0_Scheduler_0 is starting...
+Entities started.
+0.0: planner_0_Merger__Engine_0_Scheduler_0: Cloud Resource List received with 1 resource(s)
+0.0: planner_0_Merger__Engine_0_Scheduler_0: Trying to Create VM #0 in Datacenter_0
+0.1: planner_0_Merger__Engine_0_Scheduler_0: VM #0 has been created in Datacenter #2, Host #0
+5548.0509999999995: planner_0_Merger__Engine_0_Scheduler_0: Destroying VM #0
+planner_0_Merger__Engine_0_Scheduler_0 is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+planner_0 is shutting down...
+planner_0_Merger_ is shutting down...
+planner_0_Merger__Engine_0 is shutting down...
+planner_0_Merger__Engine_0_Scheduler_0 is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time    Depth
+    29        SUCCESS        2            0            0,11        0,1            0,21            0
+    5        SUCCESS        2            0            0,83        0,21            1,04            1
+    4        SUCCESS        2            0            0,81        1,04            1,85            1
+    14        SUCCESS        2            0            0,84        1,85            2,69            1
+    15        SUCCESS        2            0            0,97        2,69            3,67            1
+    11        SUCCESS        2            0            0,99        3,67            4,66            1
+    16        SUCCESS        2            0            1,05        4,66            5,71            1
+    12        SUCCESS        2            0            1,07        5,71            6,78            1
+    6        SUCCESS        2            0            1,08        6,78            7,86            1
+    17        SUCCESS        2            0            1,09        7,86            8,95            1
+    8        SUCCESS        2            0            1,09        8,95            10,04            1
+    10        SUCCESS        2            0            1,21        10,04            11,25            1
+    3        SUCCESS        2            0            1,37        11,25            12,63            1
+    9        SUCCESS        2            0            1,55        12,63            14,18            1
+    7        SUCCESS        2            0            1,59        14,18            15,76            1
+    2        SUCCESS        2            0            1,59        15,76            17,36            1
+    1        SUCCESS        2            0            1,59        17,36            18,95            1
+    13        SUCCESS        2            0            1,7        18,95            20,65            1
+    20        SUCCESS        2            0            44,47        20,65            65,12            1
+    0        SUCCESS        2            0            0,1        65,12            65,22            2
+    19        SUCCESS        2            0            47,52        65,22            112,74            1
+    18        SUCCESS        2            0            981,03        112,74            1093,77            1
+    21        SUCCESS        2            0            2450,33        1093,77            3544,1            1
+    22        SUCCESS        2            0            491,31        3544,1            4035,4            2
+    23        SUCCESS        2            0            1,58        4035,4            4036,98            3
+    27        SUCCESS        2            0            3,46        4036,98            4040,44            3
+    24        SUCCESS        2            0            5,99        4040,44            4046,43            3
+    26        SUCCESS        2            0            33,01        4046,43            4079,44            4
+    25        SUCCESS        2            0            1466,43        4079,44            5545,87            3
+    28        SUCCESS        2            0            2,18        5545,87            5548,05            5
+
