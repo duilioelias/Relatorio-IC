@@ -5,9 +5,9 @@
 		
 		O termo workflow tem sua origem ligada a processos de automação de escritórios  que surgiram na década de 70. Com o objetivo de de gerar uma tecnologia capaz de fornecer uma base de apoio à distribuição de documentos nos escritórios, o que resultou na diminuição do uso de papéis\cite{Ogasawara2011}. Embora a sua origem esteja mais relacionada com a automação de tarefas de logística, essa teoria foi expandida para outras áreas do conhecimento, como Economia, Administração, até mesmo Física, Biologia e Oceanográfica. Segundo \textit{Workflow Management Coalition\cite{WfMC} , um workflow pode ser definido como: "A automação de um processo de negócio, completo ou apenas parte dele, através do qual documentos, informações ou tarefas são transmitidos de um participante a outro por ações, de acordo com regras procedimentais"}.
 
-		Já o termo workflow científico está bem mais ligado com as ciências do que o termo workflow, por ter o seu foco na manipulação de dados e na execução de tarefas que estão diretamente relacionadas com o processamento de dados. Essa grande utilização de dados caracteriza os workflows científicos como uma estrutura baseada no fluxo de dados, ou seja, as conexões entre as atividades representam o fluxo de dados.\cite{Teixeira2013}
+		Já o termo workflow científico(WC) está mais ligado com as ciências do que o termo workflow, por ter o seu foco na manipulação de dados e na execução de tarefas que estão diretamente relacionadas com o processamento de dados. Essa grande utilização de dados caracteriza os WCs como uma estrutura baseada no fluxo de dados, ou seja, as conexões entre as atividades representam o fluxo de dados.\cite{Teixeira2013}
 		 
-		Os sistemas de workflows científicos geralmente são compostos por um grande número de tarefas que podem depender dos dados produzidos por outras tarefas. Essas tarefas podem ser manuais ou automáticas e são responsáveis pela gerência de todo o ciclo de vida do experimento científico: composição, mapeamento, execução e análise. Cada etapa do ciclo do experimento é muito importante e precisa ser analisada com cuidado\cite{Junior2012}:
+		Os sistemas de WC geralmente são compostos por um grande número de tarefas que podem depender dos dados produzidos por outras tarefas. Essas tarefas podem ser manuais ou automáticas e são responsáveis pela gerência de todo o ciclo de vida do experimento científico: composição, mapeamento, execução e análise. Cada etapa do ciclo do experimento é muito importante e precisa ser analisada com cuidado\cite{Junior2012} e estão descritas com mais detalhes logo abaixo:
 
 	\begin{itemize}
 		\item Composição: especificações das tarefas que compõem o experimento, dos tipos de dados de entrada e saída e das dependências de dados existentes entre as atividades e o ambiente computacional em que o workflows será executado.
@@ -23,26 +23,27 @@
 
 		Todo esse processo pode ser automatizado de forma que o cientista possa reexecutá-lo até que os dados obtidos na fase de análise sejam os dados esperados. 
 		
-		A estrutura de um workflow é composta pelas atividades a serem executadas e as conexões entre elas. Compreende-se por atividade cada ação realizada que recebe um dado de entrada e produz um dado ou uma informação de saída. O conjunto de conexões entre as atividades pode ser caracterizado como fluxo de controle ou fluxo de dados. Neste trabalho estamos interessados em analisar apenas o fluxo de dados, pois é a estrutura que está mais interligada com os workflows científicos . O fluxo de dados representa a dependência entre as atividades e os dados manipulados, e a forma como os dados são utilizados no workflow, com atividades produzindo dados que serão consumidos por outras atividades\cite{Teixeira2013}. 
+		A estrutura de um WfC é composta pelas atividades a serem executadas e as conexões entre elas. Compreende-se por atividade cada ação realizada que recebe um dado de entrada e produz um dado ou uma informação de saída. O conjunto de conexões entre as atividades pode ser caracterizado como fluxo de controle ou fluxo de dados. Neste trabalho estamos interessados em analisar apenas o fluxo de dados, pois é a estrutura que está mais relacionada com os WCs. O fluxo de dados representa a dependência entre as atividades e os dados manipulados, e a forma como os dados são utilizados no workflow, com atividades produzindo dados que serão consumidos por outras atividades\cite{Teixeira2013}. 
 
 		As principais construções de fluxo de dados são\cite{Teixeira2013}:
 		
 	\begin{itemize}
-		\item \textit{Pipeline}: são várias atividades combinadas sequencialmente, em que cada atividade recebe como entrada os dados produzidos como saída da atividade anterior;  
+		\item \textit{Pipeline}: são várias atividades combinadas sequencialmente, em que cada atividade recebe como entrada os dados produzidos como saída da atividade anterior;
 
-		\item \textit{Distribuição de dados(Date Partitioning)}: é feita por atividades que produzem dados de saída que são recebidos como entrada por múltiplas atividades, ou que apenas particionam grandes conjuntos de dados em subconjuntos menores para serem processadas por outras atividades;
 		
 		\item \textit{Agregarão de dados(Date Agregation)}: é feita por atividades que processam múltiplos conjuntos de dados de entrada, gerando uma combinação dos dados como saída;
 		
 		\item \textit{Redistribuição de dados}: é feita por atividades que funciona como um ponto de sincronização com relação ao processamento de dados, recebendo como entrada várias porções de dados e produzindo também múltiplas saídas como resultado.
 	\end{itemize}
 		
-	Veja a figura~\ref{fig:RGRP} alguns exemplos gráficos de fluxo de dados.
+	A figura~\ref{fig:RGRP} representa algumas dessas construções e pode facilitar a compreensão. Observe também que nesta figura temos a modelagem analítica do Montage tópico será melhor abordado nas próximas seções.
 			
 		%caractericao geral dos gerenciadores kepler, taverna.
-		%falar depois do Pegasus e do DAX que utilizado pelo pegasus, o motagem é feito em cima do formato DAX.
+		%falar depois do Pegasus e do DAX que utilizado pelo pegasus, o montage é feito em cima do formato DAX.
 	\subsection{Sistemas gerenciadores de workflows científicos}
-		Para apoiar os workflows científicos, diversos Sistemas de Gerencia de Worflows Científicos(SGWfC) foram desenvolvidos. Onde cada um deles apresentam uma particularidade para representação dos workflows e visa atender determinados tipos de aplicações de áreas específicas. Estes SGWfC são responsáveis pela coordenação das chamadas a programas, seja em ambiente local ou para ambientes distribuídos\cite{Ogasawara2011}. Os Sistemas mais utilizados , segundo o numero de workflows compartilhados no \textit{myexperiement}\footnote{url="http://www.myexperiment.org/", repositório de workflows científicos},estão descritos, de maneira bem básica, logo abaixo:
+
+		Para apoiar os WfC, diversos Sistemas de Gerencia de Worflows Científicos(SGWfC) foram desenvolvidos. Onde cada um deles apresentam uma particularidade para representação dos workflows e visa atender determinados tipos de aplicações de áreas específicas. Estes SGWfC são responsáveis pela coordenação das chamadas à programas, seja em ambiente local ou para ambientes distribuídos\cite{Ogasawara2011}. Os Sistemas mais utilizados , segundo o numero de workflows compartilhados no \textit{myexperiement}\footnote{url="http://www.myexperiment.org/", repositório de workflows científicos},estão descritos de maneira sucinta nesta nas próximas subseções:
+		
 		\subsubsection{Taverna}
 				O Taverna foi desenvolvido como parte do projeto \textit{mygrid}\footnote{http://www.mygrid.org.uk/}, é um ambiente para modelagem, execução e análise de workflows científicos, tem como foco principal aparar cientistas da área de Ciências Biológicas que normalmente não possuem conhecimento profundo de computação. O Taverna tem código aberto o que permite unir projeto de terceiros\cite{Teixeira2013}.
 

@@ -1,0 +1,318 @@
+PWD /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.tex
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.log
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/abntex2.cls
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/abntex2.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/enumitem.sty
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/enumitem.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
+INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t1.cmap
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.pdf
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t1.cmap
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/nomencl.sty
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/nomencl.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/bbm.sty
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/bbm.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.idx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.aux
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.aux
+INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/capa.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/capa.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/resumo.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/resumo.tex
+INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.toc
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.toc
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/ot1.cmap
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/ot1.cmap
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr6.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
+INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/oml.cmap
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/oml.cmap
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi6.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
+INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/oms.cmap
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/oms.cmap
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/omx.cmap
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mmap/omx.cmap
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Introducao.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Introducao.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Objetivo.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Objetivo.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/conceitosbasicos.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/conceitosbasicos.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/taverna.png
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/taverna.png
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/taverna.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm6.tfm
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/pipe.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/pipe.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/pipe.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/simuladores.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/simuladores.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/metodologia.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/metodologia.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/resultadosparciais.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/resultadosparciais.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/conclusoeparciais.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/conclusoeparciais.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.bbl
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.bbl
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt12.tfm
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.tex
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/Montage.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/Montage.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/Montage.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/RP_montage.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/RP_montage.jpg
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/img/RP_montage.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm5.tfm
+OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.toc
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Relatorio-Final.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.aux
+INPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/anexos.aux
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /home/duilioelias/.texmf-var/fonts/pk/ljfour/public/bbm/bbm12.600pk
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
