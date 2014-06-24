@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.18)  24 JUN 2014 00:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.18)  24 JUN 2014 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1094,20 +1094,20 @@ x-pe-ri-mento,
 
 [5]
 
-LaTeX Warning: Reference `fig:RGRP' on page 6 undefined on input line 42.
+LaTeX Warning: Reference `fig:RGRP' on page 6 undefined on input line 41.
 
-[6] [7] <img/taverna.png, id=123, 1194.4625pt x 818.05624pt>
+[6] [7] <img/taverna.png, id=119, 1194.4625pt x 818.05624pt>
 File: img/taverna.png Graphic file (type png)
 <use img/taverna.png>
-Package pdftex.def Info: img/taverna.png used on input line 72.
+Package pdftex.def Info: img/taverna.png used on input line 71.
 (pdftex.def)             Requested size: 405.90225pt x 277.98566pt.
 
-Overfull \hbox (36.90225pt too wide) in paragraph at lines 72--73
+Overfull \hbox (36.90225pt too wide) in paragraph at lines 71--72
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
  [] [] [][]\T1/lmr/m/n/10 https://confluence.pegasus.isi.edu/display/pegasus/Wo
 rkflowGenerator, Este
  []
@@ -1115,24 +1115,20 @@ rkflowGenerator, Este
 [8 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/
 img/taverna.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 87.
-LaTeX Font Info:    Try loading font information for U+bbm on input line 113.
+nput line 86.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 112.
 (/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [9]
-
-LaTeX Warning: Citation `Ogasawara' on page 10 undefined on input line 135.
-
-[10] <img/pipe.jpg, id=166, 1371.1225pt x 770.88pt>
+) [9] [10] <img/pipe.jpg, id=163, 1371.1225pt x 770.88pt>
 File: img/pipe.jpg Graphic file (type jpg)
 <use img/pipe.jpg>
-Package pdftex.def Info: img/pipe.jpg used on input line 144.
+Package pdftex.def Info: img/pipe.jpg used on input line 143.
 (pdftex.def)             Requested size: 369.0pt x 207.45815pt.
 )
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/sim
 uladores.tex [11 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Fi
 nal/Relatorio/img/pipe.jpg>]
-Overfull \hbox (11.69919pt too wide) in paragraph at lines 11--12
+Overfull \hbox (11.69919pt too wide) in paragraph at lines 5--6
 []\T1/lmr/m/n/12 Nesse tra-ba-lho utilizou-se o WorkflowSim[[]]
  []
 
@@ -1141,10 +1137,10 @@ Overfull \hbox (11.69919pt too wide) in paragraph at lines 11--12
 elagemanalica.tex)
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/met
 odologia.tex [12])
-(/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/res
-ultadosparciais.tex)
+(/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/ana
+lise.tex)
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/con
-clusoeparciais.tex [13]) [14]
+clusoes.tex) [13]
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Rel
 atorio-Final.bbl
 bibitemlist
@@ -1185,12 +1181,12 @@ Underfull \hbox (badness 3019) in paragraph at lines 57--62
 i . edu / display / pegasus /
  []
 
-) [15]
+) [14]
 \openout2 = `anexos.aux'.
 
 
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/ane
-xos.tex <img/Montage.jpg, id=209, 941.5175pt x 984.67876pt>
+xos.tex <img/Montage.jpg, id=202, 941.5175pt x 984.67876pt>
 File: img/Montage.jpg Graphic file (type jpg)
 <use img/Montage.jpg>
 Package pdftex.def Info: img/Montage.jpg used on input line 7.
@@ -1200,10 +1196,10 @@ Overfull \hbox (36.90225pt too wide) in paragraph at lines 7--9
  [][] 
  []
 
-[16
+[15
 
  </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/im
-g/Montage.jpg>] <img/RP_montage.jpg, id=215, 1980.198pt x 1201.8501pt>
+g/Montage.jpg>] <img/RP_montage.jpg, id=208, 1980.198pt x 1201.8501pt>
 File: img/RP_montage.jpg Graphic file (type jpg)
 <use img/RP_montage.jpg>
 Package pdftex.def Info: img/RP_montage.jpg used on input line 18.
@@ -1216,39 +1212,39 @@ Overfull \hbox (114.18832pt too wide) in paragraph at lines 18--20
 
 LaTeX Warning: Float too large for page by 115.59962pt on input line 20.
 
-[17 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio
-/img/RP_montage.jpg>] [18
+[16 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio
+/img/RP_montage.jpg>] [17
 
 
-]) [19]
+]) [18]
 \tf@toc=\write5
 \openout5 = `Relatorio-Final.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/Rel
 atorio-Final.aux
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/ane
 xos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 162.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 13608 strings out of 493304
- 194298 string characters out of 6139871
+ 13602 strings out of 493304
+ 194141 string characters out of 6139871
  485344 words of memory out of 5000000
- 16602 multiletter control sequences out of 15000+600000
+ 16599 multiletter control sequences out of 15000+600000
  78997 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,12n,49p,1003b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,49p,1061b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} </home/duilioelias/.texmf-var
 /fonts/pk/ljfour/public/bbm/bbm12.600pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fo
@@ -1265,10 +1261,10 @@ usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt12.pfb>
 Output written on "/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório F
-inal/Relatorio/Relatorio-Final.pdf" (19 pages, 1037116 bytes).
+inal/Relatorio/Relatorio-Final.pdf" (18 pages, 1034304 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

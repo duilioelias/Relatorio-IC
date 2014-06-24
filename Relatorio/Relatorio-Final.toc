@@ -11,14 +11,12 @@
 \contentsline {subsection}{\numberline {3.3}Redes de Petri}{9}{subsection.0.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}PIPE}{11}{subsubsection.0.3.3.1}
 \contentsline {subsection}{\numberline {3.4}Simuladores de workflows cient\IeC {\'\i }ficos}{11}{subsection.0.3.4}
-\contentsline {section}{\numberline {4}Metodologia}{12}{section.0.4}
-\contentsline {section}{\numberline {5}Resultados Parciais}{13}{section.0.5}
-\contentsline {section}{\numberline {6}Conclus\IeC {\~o}es Parciais}{13}{section.0.6}
-\contentsline {subsection}{\numberline {6.1}Tarefas Realizadas}{13}{subsection.0.6.1}
-\contentsline {subsection}{\numberline {6.2}Tarefas em Andamento}{14}{subsection.0.6.2}
-\contentsline {subsection}{\numberline {6.3}Tarefas a serem realizadas}{14}{subsection.0.6.3}
-\contentsline {chapter}{Refer\^encias}{15}{section*.4}
-\contentsline {section}{\numberline {7}Anexos}{16}{section.0.7}
-\contentsline {subsection}{\numberline {7.1}Anexo 1}{16}{subsection.0.7.1}
-\contentsline {subsection}{\numberline {7.2}Anexo 2}{16}{subsection.0.7.2}
-\contentsline {subsection}{\numberline {7.3}Anexo 3}{18}{subsection.0.7.3}
+\contentsline {section}{\numberline {4}Modelagem Anal\IeC {\'\i }tica}{12}{section.0.4}
+\contentsline {section}{\numberline {5}Metodologia}{12}{section.0.5}
+\contentsline {section}{\numberline {6}An\IeC {\'a}lise}{13}{section.0.6}
+\contentsline {section}{\numberline {7}Conclus\IeC {\~o}es}{13}{section.0.7}
+\contentsline {chapter}{Refer\^encias}{14}{section*.4}
+\contentsline {section}{\numberline {8}Anexos}{15}{section.0.8}
+\contentsline {subsection}{\numberline {8.1}Anexo 1}{15}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {8.2}Anexo 2}{15}{subsection.0.8.2}
+\contentsline {subsection}{\numberline {8.3}Anexo 3}{17}{subsection.0.8.3}

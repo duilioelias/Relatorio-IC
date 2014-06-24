@@ -13,7 +13,6 @@
 		\item Composição: especificações das tarefas que compõem o experimento, dos tipos de dados de entrada e saída e das dependências de dados existentes entre as atividades e o ambiente computacional em que o workflows será executado.
 		
 		\item Mapeamento: associação do modelo de workflow com os recursos computacionais disponíveis.		
-		
 		\item Execução: realização das tarefas definidas anteriormente no ambiente computacional.
 
 		\item Análise: estudo dos dados gerados na execução.
@@ -132,7 +131,7 @@ level="2"dv-namespace="vahi" dv-name="left"	dv-version="1.0">
 			
 			Da necessidade de modelagem de sistemas grandes e complexos, como os encontrados na natureza e na sociedade, foram definidas sobre a base de Redes de Petri clássica outras redes de alto nível, como as Redes de Petri Temporizadas(RdPTs) e Redes de Petri Estocásticas(RdPEs). As RdPTs como o nome diz, permite modelar situações que ocorrem entre o início e fim de cada tarefa em termos do tempos. O que permitiu diferentes possibilidades para modelagem, como lugares temporizados, fichas temporizadas e todas as outras estruturas descritas acima puderam ser temporizadas e permitiram modelar uma série de sistemas reais. Já as RdPEs é uma subclasse das RdPTs, onde o tempo de atraso de uma transição é uma variável aleatória exponencialmente distribuída\cite{Braghetto2011}. 
 		
-			Ao se usar as redes de Petri para se modelar a execução de um workflow, cada vértice pode armazenar um ou mais tokens, os vértices de transição de redes de Petri podem consumir e produzir tokens de múltiplas localizações. Os vértices de transições agem em tokens de entrada por um processo denominado disparo. Quando uma transição é disparada, ela consome os tokens de suas posições de entrada, realiza alguma tarefa de processamento, e realoca um número específico de tokens nas suas posições de saída. Isso é feito atomicamente. Como os disparos são não-determinísticos, as redes de Petri são muito utilizadas para modelar comportamento concorrente em sistemas distribuídos\cite{Ogasawara}. Neste trabalho utilizaremos o \textit{Pipe} para fazer a modelagem analítica que será descrito brevemente a seguir.
+			Ao se usar as redes de Petri para se modelar a execução de um workflow, cada vértice pode armazenar um ou mais tokens, os vértices de transição de redes de Petri podem consumir e produzir tokens de múltiplas localizações. Os vértices de transições agem em tokens de entrada por um processo denominado disparo. Quando uma transição é disparada, ela consome os tokens de suas posições de entrada, realiza alguma tarefa de processamento, e realoca um número específico de tokens nas suas posições de saída. Isso é feito atomicamente. Como os disparos são não-determinísticos, as redes de Petri são muito utilizadas para modelar comportamento concorrente em sistemas distribuídos\cite{Ogasawara2011}, assim como é possível associar a cada transição uma taxa de disparo. Neste trabalho utilizaremos o \textit{PIPE} para fazer a modelagem analítica que será descrito brevemente a seguir. 
 					
 		\subsubsection{PIPE}
 			
@@ -145,4 +144,6 @@ level="2"dv-namespace="vahi" dv-name="left"	dv-version="1.0">
 				\label{fig:PIPE}
 			\end{figure}						
 			
-		Após a construção gráfica do modelo é possível observar a evolução dinâmica do sistema modelado e fazer a análise dos dados gerados, assim como exportar em formato XML ou o PNG da Rede Petri representada.
+			Após a construção gráfica do modelo é possível observar a evolução dinâmica do sistema modelado e fazer a análise dos dados gerados, assim como exportar em formato XML ou o PNG da Rede Petri representada.
+
+			
