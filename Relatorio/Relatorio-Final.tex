@@ -17,12 +17,14 @@
 \usepackage{indentfirst}			% Indenta o primeiro parágrafo de cada seção.
 \usepackage{nomencl} 			% Lista de simbolos
 \usepackage{color}				% Controle das cores
-\usepackage[pdftex]{graphicx}			% Inclusão de gráficos
+\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{amsmath,amssymb,exscale}	%inserir eq e simbolos matemáticos
 \usepackage{listings,color}				%inserir código fonte no texto
 \usepackage{bbm, dsfont}
 \usepackage{makeidx}
 \usepackage{lscape}							% inserir folha no formato retrato
+    
 \makeindex
 
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
@@ -121,18 +123,24 @@
 \textual
 
 % ---------------------------------------------------------------------------- %
-% Introdução
+% Introdução - PRONTO
 % ---------------------------------------------------------------------------- %
 \input{Introducao}
 % ---------------------------------------------------------------------------- %
-%Objetivo
+%Objetivo - PRONTO
 % ---------------------------------------------------------------------------- %
 \input{Objetivo}	
 % ---------------------------------------------------------------------------- %
-% Seção de explicações
+% Conceitos básicos Gerenciadores/PIPE/work
 % ---------------------------------------------------------------------------- %
 \input{conceitosbasicos}
-	\input{simuladores}
+\input{simuladores}
+% ---------------------------------------------------------------------------- %
+% Modelagem Analítica
+% ---------------------------------------------------------------------------- %
+\input{modelagemanalica}
+
+
 % ---------------------------------------------------------------------------- %
 %Metologia
 % ---------------------------------------------------------------------------- %

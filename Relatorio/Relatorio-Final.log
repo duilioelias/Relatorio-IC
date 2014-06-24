@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.18)  22 JUN 2014 17:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.18)  24 JUN 2014 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,8 +925,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 \openout4 = `Relatorio-Final.idx'.
 
 Writing index file Relatorio-Final.idx 
-Package color Info: Redefining color cyan on input line 30.
-Package color Info: Redefining color blue on input line 31.
+Package color Info: Redefining color cyan on input line 32.
+Package color Info: Redefining color blue on input line 33.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -934,9 +934,9 @@ File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 71.
+(hyperref)                setting the option has no effect on input line 73.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 71.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
@@ -968,26 +968,26 @@ LaTeX Warning: Label `code:sample' multiply defined.
 ))
 \openout1 = `Relatorio-Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 104.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 102.
+Package hyperref Info: Link coloring ON on input line 104.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -997,10 +997,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 102.
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count186
@@ -1065,9 +1065,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [3]
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/Int
 roducao.tex
-Overfull \hbox (46.52428pt too wide) in paragraph at lines 6--7
-\T1/lmr/m/n/12 de ta-re-fas com-pu-ta-ci-o-nais que cons-ti-tuem um ex-pe-ri-me
-nto cient韋ico[[]].
+Overfull \hbox (93.52443pt too wide) in paragraph at lines 6--7
+\T1/lmr/m/n/12 con-junto de ta-re-fas com-pu-ta-ci-o-nais que cons-ti-tuem um e
+x-pe-ri-mento cient韋ico[[]].
  []
 
 )
@@ -1094,23 +1094,20 @@ x-pe-ri-mento,
 
 [5]
 
-LaTeX Warning: Reference `fig:RGRP' on page 6 undefined on input line 39.
+LaTeX Warning: Reference `fig:RGRP' on page 6 undefined on input line 42.
 
-[6] <img/taverna.png, id=117, 1371.1225pt x 770.88pt>
+[6] [7] <img/taverna.png, id=123, 1194.4625pt x 818.05624pt>
 File: img/taverna.png Graphic file (type png)
 <use img/taverna.png>
-Package pdftex.def Info: img/taverna.png used on input line 56.
-(pdftex.def)             Requested size: 405.90225pt x 228.20749pt.
+Package pdftex.def Info: img/taverna.png used on input line 72.
+(pdftex.def)             Requested size: 405.90225pt x 277.98566pt.
 
-Overfull \hbox (36.90225pt too wide) in paragraph at lines 56--57
+Overfull \hbox (36.90225pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
  [] [] [][]\T1/lmr/m/n/10 https://confluence.pegasus.isi.edu/display/pegasus/Wo
 rkflowGenerator, Este
  []
@@ -1118,23 +1115,34 @@ rkflowGenerator, Este
 [8 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/
 img/taverna.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 73.
-LaTeX Font Info:    Try loading font information for U+bbm on input line 99.
+nput line 87.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 113.
 (/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [9] [10] <img/pipe.jpg, id=167, 1371.1225pt x 770.88pt>
+) [9]
+
+LaTeX Warning: Citation `Ogasawara' on page 10 undefined on input line 135.
+
+[10] <img/pipe.jpg, id=166, 1371.1225pt x 770.88pt>
 File: img/pipe.jpg Graphic file (type jpg)
 <use img/pipe.jpg>
-Package pdftex.def Info: img/pipe.jpg used on input line 130.
+Package pdftex.def Info: img/pipe.jpg used on input line 144.
 (pdftex.def)             Requested size: 369.0pt x 207.45815pt.
 )
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/sim
 uladores.tex [11 </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Fi
-nal/Relatorio/img/pipe.jpg>])
+nal/Relatorio/img/pipe.jpg>]
+Overfull \hbox (11.69919pt too wide) in paragraph at lines 11--12
+[]\T1/lmr/m/n/12 Nesse tra-ba-lho utilizou-se o WorkflowSim[[]]
+ []
+
+)
+(/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/mod
+elagemanalica.tex)
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/met
-odologia.tex)
+odologia.tex [12])
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/res
-ultadosparciais.tex [12])
+ultadosparciais.tex)
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/con
 clusoeparciais.tex [13]) [14]
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/Rel
@@ -1144,29 +1152,35 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 6.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 6625) in paragraph at lines 23--29
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\T1/lmr/m/n/12 (2014).  Ta-verna.  [][]$\T1/lmtt/m/n/12 www . taverna . org .
+ uk / pages /
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 35--41
 []\T1/lmr/m/n/12 Google (2013).  Ca-lhei-ros: Cloud-sim: a to-ol-kit
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 23--29
+Underfull \hbox (badness 2376) in paragraph at lines 35--41
 \T1/lmr/m/n/12 for mo-de-ling and si-mu-la-tion of ... - go-o-gle scho-lar.  []
 []$\T1/lmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--29
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
 \T1/lmtt/m/n/12 / / scholar . google . com . br / scholar ? cites = 27205410350
 6592999 &
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 51--56
+Underfull \hbox (badness 2512) in paragraph at lines 57--62
 []\T1/lmr/m/n/12 Pegasus Pro-ject (2012).  Work-flow-Ge-ne-ra-
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 51--56
+Underfull \hbox (badness 3019) in paragraph at lines 57--62
 \T1/lmr/m/n/12 tor.  [][]$\T1/lmtt/m/n/12 https : / / confluence . pegasus . is
 i . edu / display / pegasus /
  []
@@ -1176,7 +1190,7 @@ i . edu / display / pegasus /
 
 
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/ane
-xos.tex <img/Montage.jpg, id=206, 941.5175pt x 984.67876pt>
+xos.tex <img/Montage.jpg, id=209, 941.5175pt x 984.67876pt>
 File: img/Montage.jpg Graphic file (type jpg)
 <use img/Montage.jpg>
 Package pdftex.def Info: img/Montage.jpg used on input line 7.
@@ -1189,7 +1203,7 @@ Overfull \hbox (36.90225pt too wide) in paragraph at lines 7--9
 [16
 
  </home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/im
-g/Montage.jpg>] <img/RP_montage.jpg, id=212, 1980.198pt x 1201.8501pt>
+g/Montage.jpg>] <img/RP_montage.jpg, id=215, 1980.198pt x 1201.8501pt>
 File: img/RP_montage.jpg Graphic file (type jpg)
 <use img/RP_montage.jpg>
 Package pdftex.def Info: img/RP_montage.jpg used on input line 18.
@@ -1210,31 +1224,31 @@ LaTeX Warning: Float too large for page by 115.59962pt on input line 20.
 \tf@toc=\write5
 \openout5 = `Relatorio-Final.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/Rel
 atorio-Final.aux
 (/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio Final/Relatorio/ane
 xos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 163.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 13611 strings out of 493304
- 194165 string characters out of 6139871
+ 13608 strings out of 493304
+ 194298 string characters out of 6139871
  485344 words of memory out of 5000000
- 16607 multiletter control sequences out of 15000+600000
+ 16602 multiletter control sequences out of 15000+600000
  78997 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,12n,49p,1181b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,49p,1003b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} </home/duilioelias/.texmf-var
 /fonts/pk/ljfour/public/bbm/bbm12.600pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fo
@@ -1251,10 +1265,10 @@ usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt12.pfb>
 Output written on "/home/duilioelias/Documentos/BCC/2014/IC/2parte/Relat贸rio F
-inal/Relatorio/Relatorio-Final.pdf" (19 pages, 997702 bytes).
+inal/Relatorio/Relatorio-Final.pdf" (19 pages, 1037116 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 140 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

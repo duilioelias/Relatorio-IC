@@ -8,5 +8,3 @@ OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatori
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-OUTPUT /home/duilioelias/Documentos/BCC/2014/IC/2parte/Relatório Final/Relatorio/conceitosbasicos.pdf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

@@ -1,10 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[Tav, 2014]{Taverna}
+ (2014).
+\newblock Taverna.
+\newblock \url{www.taverna.org.uk/pages/wp-content/uploads/2010/06/}.
+\newblock Último acesso: 2014-06-23.
+
 \bibitem[WfM, 2014]{WfMC}
  (2014).
 \newblock Workflow management coalition.
 \newblock \url{http://www.wfmc.org/}.
 \newblock Último acesso: 2014-02-06.
+
+\bibitem[Bonet et~al., 2007]{bonet2007pipe}
+Bonet, P., Llad{\'o}, C.~M., Puijaner, R., and Knottenbelt, W.~J. (2007).
+\newblock Pipe v2. 5: A petri net tool for performance modelling.
+\newblock In {\em Proc. 23rd Latin American Conference on Informatics (CLEI
+  2007)}.
 
 \bibitem[Braghetto, 2011]{Braghetto2011}
 Braghetto, K. (2011).
@@ -33,12 +45,6 @@ Júnior, L. (2012).
   distribuídos.
 \newblock Doutorado, Universidade Federal do Rio de Janeiro, UFRJ-Rio de
   Janeiro.
-
-\bibitem[of~Computing~at Imperial College~London, 2002]{PIPE}
-of~Computing~at Imperial College~London, D. (2002).
-\newblock Ferramenta de análise e representação de redes de petri.
-\newblock \url{http://pipe2.sourceforge.net/}.
-\newblock [Online; acessado em 01 de fevereiro de 2014].
 
 \bibitem[Ogasawara, 2011]{Ogasawara2011}
 Ogasawara, E.~S. (2011).
