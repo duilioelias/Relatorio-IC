@@ -1,0 +1,116 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,right=2cm,top=3.0cm,bottom=3cm]{geometry}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[colorlinks=true,linkcolor=black,linktoc=all, urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+
+%\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\date{}
+\title{
+    O Uso de Redes de Petri na Modelagem de \\Workflows Científicos e seus Recursos\footnote{Este trabalho foi financiado por uma bolsa de iniciação científica RUSP (processo número: ?????).}
+}
+
+\author{
+\textbf{\textit{Duílio Henrique Haroldo Elias}},\textbf{ \textit{Kelly Rosa Braghetto}}\\
+\\
+\textit{Universidade de São Paulo} / \textit{Instituto de Matemática e Estatística}\\
+\\
+\href{mailto:duilio.elias@usp.br}{duilio.elias@usp.br} | \href{mailto:kellyrb@ime.usp.br}{kellyrb@ime.usp.br}
+}
+
+
+% Define o rodapé e o cabeçalho
+\fancyhf{} 
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{SIICUSP 2014 -- 22º Simpósio Internacional de Iniciação Científica e Tecnológica da USP }
+\pagestyle{fancy}
+
+\begin{document}
+\maketitle
+    
+\section*{Resumo}
+%*** Na primeira página deve ficar apenas os resumos em português e em inglês. \\
+%O texto deve ter um total de 4 páginas. ***
+	Nas últimas décadas os workflows científicos receberam grande atenção da comunidade acadêmica, devido à sua grande
+capacidade de manipulação, análise e simulação de experimentos que trabalham com grandes quantidades de dados. No entanto,
+as ferramentas existentes para tal fim são ainda escassas e muitos cientistas afirmam que esse seja o é um grande gargalo da produção científica. Neste trabalho, busca-se contribuir com este processo, criando modelos estocásticos capazes de descrever analiticamente alguns workflows bem estudado pela comunidade acadêmica. Com isso, pretende-se extrair índices capazes de predizer o impacto do uso de diferentes abordagens de controle de fluxo de dados no desempenho dos workflows e compara-los com os dados das simulações.
+
+ 
+\section*{Abstract}
+
+blablablab
+
+blablablab
+
+blablablab
+
+\thispagestyle{fancy}
+
+\newpage
+
+\section*{Introdução}
+
+Falar sobre:
+\begin{itemize}
+	\item O que são workflows científicos(OK) e porque eles são importantes(acrescentar algo)
+	\item Como eles são modelados? Que ferramentas de apoio eles possuem
+	\item Porque é interessante modelar workflows usando linguagens formais como Redes de Petri (verificação de propriedades dos modelos, extração de índices de desempenho, etc.)
+	\item Porque a predição de desempenho é importante? Onde ela pode ser usada?
+	\item Porque é difícil usar linguagens formais na modelagem? 
+\end{itemize}
+	
+	Um workflow científico(WfC) pode ser compreendido como um conjunto de tarefas computacionais que constituem um experimento científico \cite{Junior2012}, ou seja, os passos a serem executados pelo experimento. Os WfCs são conhecidos pelo seu poder de manipulação e execução de experimentos científicos automatizáveis que trabalham com grandes quantidades de dados. As principais etapas do ciclo de vida de um WfC são a modelagem, execução e análise e são normalmente gerenciadas por sistemas complexos chamados de Sistemas Gerenciadores de Workflows Científicos(SGWfC).
+	
+
+\section*{Objetivos}
+
+Detalhar um pouquinho as seguintes ideias:
+\begin{itemize}
+\item O objetivo do trabalhar é definir um método de conversão de modelos de workflows baseados em fluxos de dados em modelos em Rede de Petri Estocásticas
+\item Em modelos em Rede de Petri Estocásticas, pode-se também incorporar informações sobre o tempo de execução das atividades e também sobre os recursos computacionais disponíveis para a execução do workflow; por essa razão, é possível extrair deles prediçoes sobre o desempenho do workflow.
+\end{itemize}
+
+Como a parte de comparar os resultados obtidos com as RdPs com os obtidos por meio do simulador não foi finalizada a tempo, não vamos mencioná-la aqui na seção de objetivos. Mas podemos falar dela na seção de trabalhos futuros.
+
+\section*{Materiais e Métodos}
+
+Aqui a ideia é explicar os conceitos importantes relacionados ao seu trabalho e descrever de forma sucinta o que você fez:
+
+\begin{itemize}
+\item Explicar sucintamente os componentes de uma RdP
+\item Falar sobre as construções de fluxo de dados básicas (pipeline, distribuição, agregação)
+\item Para cada uma das construções acima, mostrar como ela é mapeada na RdP; também explicar que, no modelo em RdP, uma atividade é modelada como uma transição
+\item Dizer que, como estudo de caso, foi usado um conjunto de workflows científicos sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados e que com frequência são empregados como base de comparaçã. Citar a fonte desses workflows.  
+\item Dizer que os workflows estavam descritos na linguagem DAX; seu modelos já trazem informações sobre o tempo médio de execução de cada atividade e também sobre o tamanho dos dados de entrada. Essas informações são importantes na construção do modelo estocástico em RdP
+\item Explicar como informações sobre os recursos computacionais disponíveis podem ser incluídas no modelo em RdP
+\item Falar que foi usada a ferramenta PIPE para a análise numérica do modelo.
+\item Dizer que a análise numérica do modelo nos dá de imediato dois índices de desempenho interessantes: a porcentagem de utilização dos recursos e o rendimento (throughput) das atividades e do workflow.    
+\end{itemize}
+\section*{Resultados}
+
+Aqui não temos muita coisa para explicar.
+Temos que tentar incluir um ou dois daqueles workflows que você fez em Redes de Petri e depois dizer que os demais modelos estão no site (e colocar o link para aquela página que eu criei: \url{http://www.ime.usp.br/~kellyrb/ic/#duilio}).
+
+\section*{Conclusões}
+
+Aqui é preciso dizer coisas como:
+\begin{itemize}
+\item No trabalho, foram modelados em RdP um conjunto de workflows científicos sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados 
+\item Concluiu-se que, por meio das Redes de Petri, é possível representar todas as construções básicas de fluxos de dados
+\item Recursos computacionais simples (como máquinas, VMs, processadores) são facilmente expressos nos modelos em RdP
+\item A solução numérica dos modelos em RdP traz uma predição do desempenho do workflow (utilização dos recursos e o rendimento (throughput) das atividades e do workflow)
+\item Dizer que, como trabalho futuro, intenciona-se comparar os resultados obtidos a partir das redes de petri com resultados obtidos por meio da simulação do workflow em ferramentas como o WorkflowSim.
+\end{itemize}
+
+\bibliographystyle{bababbr3}
+\bibliography{referencias}
+
+\end{document}
