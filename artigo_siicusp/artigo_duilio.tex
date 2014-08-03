@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage{subfig}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage[colorlinks=true,linkcolor=black,linktoc=all, urlcolor=black]{hyperref}
@@ -74,72 +75,100 @@ In the last decades, scientific workflows received great attention from the acad
 	Estes são os principais SGWfC e estão descritos bem sucintamente, porém cada um tem suas particularidades que visam atender a necessidades especificas de cada área e cada cientista precisa escolher o que mais atende as suas necessidades. 
 
 	%Porque é interessante modelar workflows usando linguagens formais como Redes de Petri (verificação de propriedades dos modelos, extração de índices de desempenho, etc.)
-			
-	
-	Para este trabalho escolhemos o Pegasus, por ter uma boa documentação e permitir modelar sistemas com recursos computacionais distribuídos e também por possuir toda descrição em modo textual(DAX), que poderá no futuro criar um algoritmo para modelagem analítica de forma a automatizar criação de modelos analíticos que será feita nas próximas seções.
+		Para este trabalho escolhemos o Pegasus, por ter uma boa documentação e permitir modelar sistemas com recursos computacionais distribuídos e também por possuir toda descrição em modo textual(DAX), que poderá no futuro criar um algoritmo para modelagem analítica de forma a automatizar criação de modelos analíticos que será feita nas próximas seções.
 
 \section*{Objetivos}
-
-Detalhar um pouquinho as seguintes ideias:
-\begin{itemize}
-	
-	\item O objetivo do trabalhar é definir um método de conversão de modelos de workflows baseados em fluxos de dados em modelos em Rede de Petri Estocásticas
-
-	\item Em modelos em Rede de Petri Estocásticas, pode-se também incorporar informações sobre o tempo de execução das atividades e também sobre os recursos computacionais disponíveis para a execução do workflow; por essa razão, é possível extrair deles predições sobre o desempenho do workflow.
-
-\end{itemize}
-
-Como a parte de comparar os resultados obtidos com as RdPs com os obtidos por meio do simulador não foi finalizada a tempo, não vamos mencioná-la aqui na seção de objetivos. Mas podemos falar dela na seção de trabalhos futuros.
 
 %O objetivo do trabalhar é definir um método de conversão de modelos de workflows baseados em fluxos de dados em modelos em Rede de Petri Estocásticas
 
 %Em modelos em Rede de Petri Estocásticas, pode-se também incorporar informações sobre o tempo de execução das atividades e também sobre os recursos computacionais disponíveis para a execução do workflow; por essa razão, é possível extrair deles predições sobre o desempenho do workflow.
 
+%Como a parte de comparar os resultados obtidos com as RdPs com os obtidos por meio do simulador não foi finalizada a tempo, não vamos mencioná-la aqui na seção de objetivos. Mas podemos falar dela na seção de trabalhos futuros.
+
 O objetivo deste trabalho é definir um método de conversão de modelos de workflows baseados em fluxos de dados(WfC) em modelos em Rede de Petri Estocásticas. Para isso foram modelados um grupo de WfC, o qual se conhece bem o comportamento, utilizando para isso o arquivo DAX, neste arquivo é possível obter o tempo de execução de cada atividade, o tamanho de cada arquivo compartilhado e a precedência entre as atividades. Com essas informações foi possível construir as redes de Petri correspondentes. Em modelos em Rede de Petri Estocásticas, pode-se também incorporar informações sobre o taxa de execução das atividades e sobre os recursos computacionais disponíveis para a execução do WfC; por essa razão, é possível extrair deles predições sobre o desempenho do WfC.
 
 
 \section*{Materiais e Métodos}
+	
+	As Redes Petri(RdP) são um dos formalismos mais utilizados para modelagem analítica e análise de sistemas concorrentes mais utilizados, e isso deve-se à fácil compreensão, representação gráfica e devido ao seu potencial matemático para análise de modelos. Algumas características importantes de WfC podem ser facilmente representadas utilizando RdP, tais como a sincronização de tarefas, concorrência e controle de dependências\cite{Braghetto2011}.
+	Uma RdP pode ser formalmente definida pela tupla $RdP={L,T,A,P,m_{0}}$, em que:
 
-Aqui a ideia é explicar os conceitos importantes relacionados ao seu trabalho e descrever de forma sucinta o que você fez:
+		\begin{itemize}
+		\item $L=\{l_{1},l_{2},...,l_{L}\}$ é um conjunto de lugares;
+		\item $T=\{t_{1},t_{2},...,t_{T}\}$ é um conjunto de transições;
+		\item $A\subseteq(L x T)\bigcup (TxL)$ é um conjunto de arcos;
+		%\item $P:A\rightarrow\mathbbm{N}$ é a função peso dos arcos;
+		\item $m_{0}=\{m_{01},m_{02},...,m_{0L}\}$ é a marcação inicial da rede;
+		\end{itemize}
 
-\begin{itemize}
+	Cada uma dessas definições está associados a diferentes e importantes conceitos de RdP, que são:
+		
+		\begin{itemize}
+			
+			\item \textit{lugar} (representado graficamente por um círculo)- modela uma condição que deve ser satisfeita para que o disparo da transição seja realizado;
 
-	\item Explicar sucintamente os componentes de uma RdP
+			\item \textit{transição} (representado graficamente por um retângulo) - pode ser compreendido por uma por uma ação ou um evento;
 
-	\item Falar sobre as construções de fluxo de dados básicas (pipeline, distribuição, agregação)
+			\item \textit{arco orientado} liga um lugar a uma transição ou o contrário, ligando condições e eventos;
 
-	\item Para cada uma das construções acima, mostrar como ela é mapeada na RdP; também explicar que, no modelo em RdP, uma atividade é modelada como uma transição
+			\item \textit{fichas, marcas ou tokens} (representado por um ponto preto)- Representam um recurso ou um estado de um sistema;
 
-	\item Dizer que, como estudo de caso, foi usado um conjunto de workflows científicos sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados e que com frequência são empregados como base de comparação Citar a fonte desses workflows.  
+			\item \textit{peso} - os arcos possuem um peso associado a eles; os pesos indica quantas fichas uma transição consome de um lugar de entrada ou quantas fichas uma transição acrescenta em um lugar de saída. Por \textit{default} quando um arco não possui um peso o peso é 1;
+					
+			\end{itemize}
+			
+	Da necessidade de modelagem de sistemas grandes e complexos, como os encontrados na natureza e na sociedade, foram definidas sobre a base de Redes de Petri clássica outras redes de alto nível, como as Redes de Petri Temporizadas(RdPTs) e Redes de Petri Estocásticas(RdPEs). As RdPTs como o nome diz, permite modelar situações que ocorrem entre o início e fim de cada tarefa em termos do tempos. O que permitiu diferentes possibilidades para modelagem, como lugares temporizados, fichas temporizadas e todas as outras estruturas descritas acima puderam ser temporizadas e permitiram modelar uma série de sistemas reais. Já as RdPEs é uma subclasse das RdPTs, onde o tempo de atraso de uma transição é uma variável aleatória exponencialmente distribuída\cite{Braghetto2011}. \\
+		
+	Ao se usar as redes de Petri para se modelar a execução de um workflow, cada vértice pode armazenar um ou mais tokens, os vértices de transição de redes de Petri podem consumir e produzir tokens de múltiplas localizações. Os vértices de transições agem em tokens de entrada por um processo denominado disparo. Quando uma transição é disparada, ela consome os tokens de suas posições de entrada, realiza alguma tarefa de processamento, e realoca um número específico de tokens nas suas posições de saída. Isso é feito atomicamente. Como os disparos são não-determinísticos, as redes de Petri são muito utilizadas para modelar comportamento concorrente em sistemas distribuídos\cite{Ogasawara2011}, como é possível associar a cada transição uma taxa de disparo, ou seja, isto representará o inverso do tempo gasto para executar determinada atividade no WfC.\\
+	
+	Em uma RdPE, cada atividade do WfC é modelada como uma transição e cada transição do WfC é modelada como um lugar. Porém em algumas ocasiões precisa-se construir estruturas auxiliares como é o caso para \textit{\textbf{Paralelismo(4)}} criado na figura \ref{RdPE_Montage} para representar entradas de dados simultâneas.	\\
 
-	\item Dizer que os workflows estavam descritos na linguagem DAX; seu modelos já trazem informações sobre o tempo médio de execução de cada atividade e também sobre o tamanho dos dados de entrada. Essas informações são importantes na construção do modelo estocástico em RdP
 
-	\item Explicar como informações sobre os recursos computacionais disponíveis podem ser incluídas no modelo em RdP
+		As principais construções de fluxo de dados estão descritas abaixo e exemplificadas na figura \ref{RdPE_Montage} como é feita a modelagem analítica usando Redes de Petri Estocásticas(RdPE):
+		
+	\begin{itemize}
+		
+		\item \textit{Pipeline(1)}: são várias atividades combinadas sequencialmente, em que cada atividade recebe como entrada os dados produzidos como saída da atividade anterior;
+		
+		\item \textit{Agregação de dados(2)}: é feita por atividades que processam múltiplos conjuntos de dados de entrada, gerando uma combinação dos dados como saída;
 
-	\item Falar que foi usada a ferramenta PIPE para a análise numérica do modelo.
+		\item \textit{Distribuição de dados(3)}: é feita por atividades que produzem dados de saída que são recebidos como entrada por múltiplas atividades, ou que apenas particionam grandes conjuntos de dados em subconjuntos menores para serem processados por outras atividades no workflow;
 
-	\item Dizer que a análise numérica do modelo nos dá de imediato dois índices de desempenho interessantes: a porcentagem de utilização dos recursos e o rendimento (throughput) das atividades e do workflow.    
+	\end{itemize}
 
-\end{itemize}
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics{img/montage25_peq}
+		\caption{Exemplo de RdPE}
+		\label{RdPE_Montage}
+	\end{figure}
 
+	Como estudo de caso, foi usado um conjunto de WfCs sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados e que com frequência são empregados como base de comparação \footnote{https://confluence.pegasus.isi.edu/display/pegasus/WorkflowGenerator}. Estes WfCs estão descritos na linguagem DAX; seus modelos já trazem informações sobre o tempo médio de execução de cada atividade e também sobre o tamanho dos dados de entrada. Essas informações são importantes na construção das RdPEs e foram utilizados neste trabalho.\\
+	
+	Para representação dos recursos computacionais disponíveis em RdPT foi criado um lugar,uma transição de ida e uma volta para cada atividade da RdP e para representar de cada máquina foram colocados tokens, ou seja, para cada maquina um token. Poderia-se também para representar o tempo transferência de dados, colocar uma taxa de transição em cada uma das transições que liga uma atividade ao lugar das máquinas. Para modelagem e análise numérica das redes criadas foi utilizada o PIPE que é uma ferramenta \textit{Open Source} que permite criar modelos gráficos de RdPEs e possue módulos para análise numérica do modelo e extrair de imediato dois índices de desempenho interessantes: a porcentagem de utilização dos recursos e o rendimento(throughput) das atividades e do WfC.
+	
 \section*{Resultados}
+	Para cada WfC sintético foi feita a sua modelagem em RdPE como o auxílio do PIPE e estão disponíveis \url{http://www.ime.usp.br/~kellyrb/ic/#duilio}, observe na figura \ref{Epigenomics_WfC} a representação gráfica do \textit{Epigenomics 24} \footnote{http://en.wikipedia.org/wiki/Epigenomics} que é um estudo sobre modificações reversíveis no DNA, que estão ligadas a diversos processos celulares e na figura \ref{Epigenomics_RdPE} a modelagem analítica usando RdPE.
 
-Aqui não temos muita coisa para explicar.
-Temos que tentar incluir um ou dois daqueles workflows que você fez em Redes de Petri e depois dizer que os demais modelos estão no site (e colocar o link para aquela página que eu criei: \url{http://www.ime.usp.br/~kellyrb/ic/#duilio}).
+\begin{figure}[!h]
+	\centering
+	\subfloat[WfC]{
+		\includegraphics[height=5cm]{img/Epigenomics}
+		\label{Epigenomics_WfC}
+	}
+	\quad %espaco separador
+	\subfloat[RdPE]{
+		\includegraphics[height=5cm]{img/Epigenomics_RdPE}
+		\label{Epigenomics_RdPE}
+	}
+	\caption{Modelagem Analítica do Epigenomics}
+	\label{modelagem_analitica}
+\end{figure}
+\newpage
 
 \section*{Conclusões}
 
-Aqui é preciso dizer coisas como:
-
-\begin{itemize}
-	
-	\item No trabalho, foram modelados em RdP um conjunto de workflows científicos sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados 
-	\item Concluiu-se que, por meio das Redes de Petri, é possível representar todas as construções básicas de fluxos de dados
-	\item Recursos computacionais simples (como máquinas, VMs, processadores) são facilmente expressos nos modelos em RdP
-	\item A solução numérica dos modelos em RdP traz uma predição do desempenho do workflow (utilização dos recursos e o 	rendimento (throughput) das atividades e do workflow)
-	\item Dizer que, como trabalho futuro, intenciona-se comparar os resultados obtidos a partir das redes de petri com resultados obtidos por meio da simulação do workflow em ferramentas como o WorkflowSim.
-
-\end{itemize}
+Neste trabalho, foram modelados em RdP um conjunto de workflows científicos sintéticos (extraídos de workflows reais) que ilustram o uso de diferentes construções de fluxos de dados. Concluiu-se que, por meio das Redes de Petri, é possível representar todas as construções básicas de fluxos de dados, além de recursos computacionais simples (como máquinas, VMs, processadores) são facilmente expressos nos modelos em RdP. A solução numérica dos modelos em RdP traz uma predição do desempenho do workflow (utilização dos recursos e o rendimento (throughput) das atividades e do workflow). Como trabalho futuro, pretende-se comparar os resultados obtidos a partir das RdP com resultados obtidos por meio da simulação do workflow em ferramentas como o WorkflowSim %\citep{•}.
 
 \bibliographystyle{bababbr3}
 \bibliography{referencias}
